@@ -6,7 +6,7 @@ public class HumanTest {
 
    public static void main(String[] args) {
 
-      Human h = new Human();
+      Human h = new Human(null, 0, null, null);
 
       h.setName("박윤미");
       h.setAge(23);
@@ -23,11 +23,11 @@ public class HumanTest {
       sex = h.getSex();
       hairColor = h.getHairColor();
       
-      System.out.println(name);
-      System.out.println(age);
-      System.out.println(sex);
-      System.out.println(hairColor);
-            
+//      System.out.println(name);
+//      System.out.println(age);
+//      System.out.println(sex);
+//      System.out.println(hairColor);
+      System.out.println(h);   
    }
 
 }
